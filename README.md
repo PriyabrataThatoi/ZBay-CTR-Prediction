@@ -16,4 +16,4 @@ Trishla Mishra [https://github.com/TrishlaM]
 Solution - Training & Test.ipynb combined all the datasets, created new features, implemented H20AutoML to predict is_click
 
 ### Leaderboard (Data Busters)
-Public LB : 364th/836 Rank
+Public LB : 364th/6456 Rank
