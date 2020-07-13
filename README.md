@@ -1,21 +1,23 @@
-# WNS-Analytics-challenge-Predicting-Click-Through-Rate
+# WNS ANALYTICS CHALLENGE : "PREDICTING CLICK THROUGH RATE FOR THE ZBAY'S ADVERTISMENTS"
 <img width="760" alt="wns1" src="https://user-images.githubusercontent.com/54467567/64366780-915c2280-cfdc-11e9-82e5-14a598011415.png">
 
 
-## About the company
-WNS (Holdings) Limited (NYSE: WNS) is a leading Business Process Management (BPM) company. WNS combines deep industry knowledge with technology, analytics and process expertise to co-create innovative, digitally led transformational solutions with over 350 clients across various industries. It is a trusted analytics partner to over 90+ clients from banking, insurance, hospitality, retail, CPG, logistics, healthcare providers, airlines and many more. WNS leverages its analytics expertise in combination with rich industry domain knowledge and custom-built proprietary frameworks to help clients make informed decisions at the right time. It has more than a decade of proven, core analytics experience with over 2,700+ analytics professionals spread across 16+ delivery centers.
+## PROBLEM STATEMENT
+Zbay is an E-commerce website which sells a variety of products at its online platform. Zbay records user behaviour of its customers and stores it as a log. However, most of the times, users do not buy the products instantly and there is a time gap during which the customer might surf the internet and maybe visit competitor websites.   Now, to improve sales of products, Zbay has hired Adiza, an Adtech company which built a system such that ads are being shown for Zbay’s products on its partner websites.   If a user comes to Zbay’s website and searches for a product, and then visits these partner websites or apps, his/her previously viewed items or their similar items are shown on as an ad. If the user clicks this ad, he/she will be redirected to the Zbay’s website and might buy the product.
 
-## Problem Statement
 
 ![AV](https://user-images.githubusercontent.com/54467567/64366815-a769e300-cfdc-11e9-8696-7771b79541cf.PNG)
 
 
-Predict: The task is to predict click probability i.e. probability of user clicking the ad which is shown to them on the partner websites for the next 7 days on the basis of historical view log data, ad impression data and user data
+#### Predict: The task is to predict click probability i.e. probability of user clicking the ad which is shown to them on the partner websites for the next 7 days on the basis of historical view log data, ad impression data and user data
+
+## Data
+view log of users (2018/10/15 - 2018/12/11) and the product description collected from the Zbay website. We also provide the training data and test data containing details for ad impressions at the partner websites(Train + Test).   Train data contains the impression logs during 2018/11/15 – 2018/12/13 along with the label which specifies whether the ad is clicked or not. Your model will be evaluated on the test data which have impression logs during 2018/12/12 – 2018/12/18 without the labels
 
 Trishla Mishra [https://github.com/TrishlaM]
 
 ## Technology used:
-Python
+Python, H20 AUTOML
 
 ### Leaderboard (Data Busters)
 Public LB : 364th/6456 Rank
